@@ -1,0 +1,6 @@
+class %{name}Component < Wired::BaseComponent
+
+  def render_layout
+    view('components/%{lower}')
+  end
+end

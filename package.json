@@ -1,0 +1,20 @@
+{
+  "name": "wired",
+  "version": "1.0.0",
+  "description": "livewire port wannabe for ruby on rails",
+  "main": "app/assets/javascripts/wired/index.js",
+  "author": "anon",
+  "license": "ISC",
+  "files": ["app/assets/javascripts/wired/*"],
+  "dependencies": {
+    "@alpinejs/anchor": "^3.13.10",
+    "@alpinejs/collapse": "^3.13.10",
+    "@alpinejs/focus": "^3.13.10",
+    "@alpinejs/intersect": "^3.13.10",
+    "@alpinejs/mask": "^3.13.10",
+    "@alpinejs/morph": "^3.13.10",
+    "@alpinejs/persist": "^3.13.10",
+    "@rails/activestorage": "^7.2.100",
+    "alpinejs": "^3.13.10"
+  }
+}
