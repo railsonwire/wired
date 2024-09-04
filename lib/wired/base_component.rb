@@ -7,7 +7,7 @@ module Wired
 
     def initialize(context, args)
       args.each do |k,v|
-        instance_variable_set("@#{k}", v) # uso @ dentro componente
+        instance_variable_set("@#{k}", v) # use @ inside component
       end
 
       self.__event_queue = []
@@ -136,6 +136,7 @@ module Wired
       end
     end
 
+    # TODO: this is awful
     def reserved_vars
       %w[
         _config

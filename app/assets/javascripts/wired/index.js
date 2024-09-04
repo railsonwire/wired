@@ -42,7 +42,7 @@ class Wired {
       const element = new DOMItem(el)
       nodeUtils.init(element, component)
 
-      // non ho idea di cosa faccia, spero quello che faccio sopra nell'init
+      // no idea what this does, hopefully the same thing i do in the init
       // attributes.forEach(attribute => {
       //   if (!attribute.name.match(new RegExp('wired:'))) return;
 
@@ -76,7 +76,7 @@ class Wired {
           const element = new DOMItem(el)
           nodeUtils.init(element, component)
 
-          // non ho idea di cosa faccia, spero quello che faccio sopra nell'init
+          // no idea what this does, hopefully the same thing i do in the init
           // trigger('element.init', { el, component })
 
           // let directives = Array.from(el.getAttributeNames())
