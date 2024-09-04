@@ -119,7 +119,9 @@ module Wired
       eventQueue = event_queue
       eventQueueNext = event_queue_next
 
-      html = redirectTo ? '<div></div>' : render_layout # dont render template if redirect
+      # TODO: find a good way to do this
+      # html = redirectTo ? '<div></div>' : render_layout # dont render template if redirect
+      html = render_layout
 
       return [stateData, redirectTo, eventQueue, eventQueueNext, html]
     end
